@@ -35,20 +35,20 @@ h1 {
     margin: 10px 0;
 }
 
-nav{
+nav {
     background-color: rgb(46, 177, 19);
     text-align: center;
     padding: 16px;
 }
 
-nav a{
+nav a {
     color: #171717;
     font-weight: 700;
     text-decoration: none;
     margin: 0 12px;
 }
 
-nav a:hover{
+nav a:hover {
     color: #ffc3c3;
 }
 
@@ -75,23 +75,23 @@ p {
     margin-bottom: 16px;
 }
 
-.excusa{
+.excusa {
     background-color: #f89b9b4f;
     padding: 20px;
     margin-bottom: 16px;
 }
 
-.excusa h3{
+.excusa h3 {
     color: rgb(227, 50, 50);
     margin-top: 0;
 }
 
-#estado{
+#estado {
     background-color: #066219;
     color: ghostwhite;
 }
 
-#estado h2{
+#estado h2 {
     color: rgb(225, 255, 0);
 }
 
@@ -117,4 +117,93 @@ footer {
 footer p {
     font-weight: 700;
     margin: 0;
+}
+
+.expediente header {
+    background-image: url("img/juez.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.evidencias {
+    padding: 1em;
+    margin: 1.5em 0;
+    border: 0.15em solid #171717;
+}
+
+.evidencias img {
+    max-width: 100%;
+    display: block;
+}
+
+.evidenciasfigcaption {
+    text-align: center;
+    font-style: italic;
+    margin-top: 0.75em;
+}
+
+.dato_estado {
+    margin-top: 1.5em;
+}
+
+.estado {
+    background-color: #66ff00;
+    color:#171717;
+    padding: 1em;
+    margin-bottom: 0.75em;
+    border: 0.15em solid #171717;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.etiqueta {
+    font-weight: 700;
+    display: block;
+}
+
+.valor {
+    color: crimson;
+    display: inline-block;
+    padding: .3em .5em;
+    border: 0.1em solid #171717;
+}
+
+.expediente-header {
+    position: relative;
+}
+
+.sello-clasificado {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    background-color: crimson;
+    color: ghostwhite;
+    padding: 0.4em 0.7em;
+    border: 0.15em solid ghostwhite;
+    font-weight: 700;
+}
+
+.aviso-sistema {
+    position: fixed;
+    right: 1em;
+    bottom: 0.3em;
+    background-color: rgb(65, 178, 17);
+    padding: 0.6em 1em;
+    border: 0.1em solid #171717;
+    font-weight: 700;
+}
+
+.volver {
+    position: fixed;
+    padding: 0.6em 1em;
+    top: 1em;
+    left: 1em;
+    background-color: green;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.volver:hover {
+    background-color: #00ff00;
 }
